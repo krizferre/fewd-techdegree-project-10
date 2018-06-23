@@ -33,7 +33,7 @@ $(document).ready(function() {
       itemHtml += '<div class="state" style="display: none;">' + item.location.state + '</div>';    
       itemHtml += '<div class="street" style="display: none;">' + item.location.street + '</div>';    
       itemHtml += '<div class="cell" style="display: none;">' + item.cell + '</div>';    
-      itemHtml += '<div class="dob" style="display: none;">' + item.dob + '</div>';    
+      itemHtml += '<div class="dob" style="display: none;">' + item.dob.date + '</div>';    
       itemHtml += '</div>';
     }); // end each
 
